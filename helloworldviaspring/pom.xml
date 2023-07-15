@@ -36,6 +36,8 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
         <version>3.3.2</version>
+<!--        updating this as the maven version in my local is version 2.6 or lower and is expecting the web.xml file which is not required for servlet 3.0 and above-->
+<!--        https://stackoverflow.com/questions/33390460/maven-error-assembling-war-webxml-attribute-is-required-when-building-the-sprin&#45;&#45;-->
       </plugin>
     </plugins>
   </build>
