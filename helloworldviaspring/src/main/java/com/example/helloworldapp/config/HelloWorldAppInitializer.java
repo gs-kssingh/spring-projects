@@ -5,6 +5,7 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 /**
  * @author Sohan created on 16/07/23
  */
+
 public class HelloWorldAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
   @Override
